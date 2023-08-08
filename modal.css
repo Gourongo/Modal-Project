@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(image/modalbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.modal-box{
+    margin-top: 250px;
+    max-width: 700px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 25px black;
+}
+.modal-text{
+    font-size: 70px;
+    letter-spacing: 5px;
+}
+.open-Btn{
+    margin-top: 80px;
+    border: none;
+    background-color: rgb(7, 236, 224);
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 20px;
+    letter-spacing: 5px;
+}
+.open-Btn:hover{
+    background-color: rgb(17, 186, 178);
+    cursor: pointer;
+}
+.close-Btn{
+    border: none;
+    background-color: transparent;
+    color: red;
+    text-align: right;
+    font-size: 35px;
+}
+.modal-content{
+    position: absolute;
+    top: 31%;
+    margin-left: 35px;
+    max-width: 600px;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+    visibility: hidden;
+    box-shadow: 2px 2px 25px black;
+}
+.open-modal{
+    visibility: visible;
+}
